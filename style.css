@@ -142,10 +142,10 @@ li.nav a:hover {
 .intro-text {
   background-color: #ff4d4d; /* Add your own background color */
   padding: 4%;
-  margin: 3%;
+  margin: 2%;
   color: ; /* Add the color of your font */
   font-size: 30px; /* Add your font size*/
-  letter-spacing: 2px; /* Adds space between letters */
+  letter-spacing: 3px; /* Adds space between letters */
   line-height: 1.4em; /* Adds space between lines */
   text-align: right;
 
