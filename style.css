@@ -17,19 +17,20 @@ body,
 html {
   height: 100%;
   font-size: 20px; /* Change the font size*/
-  font-family: "Roboto", sans-serif; /* Change the font */
+  font-family: 'Dancing Script', cursive; /* Change the font */
   line-height: 1.5em; /* Change the line height size*/
   margin: 0em;
   color: white; /* Change the font color*/
   background-color: #0D38D3; /* Change the background color */
   box-sizing: border-box;
+  
 }
 
 h1 {
   letter-spacing: 5px;
   font-size: 50px;
   /*TODO: Change the font-family property to your linked font*/
-  font-family: "Roboto Mono", sans-serif;
+  font-family: 'Dancing Script', cursive;
   color: #43d6b9ff;
   text-align: center;
 }
@@ -38,7 +39,7 @@ h1 {
 h2 {
   letter-spacing: 3px;
   font-size: 25px;
-  font-family: "Roboto Mono", sans-serif;
+  font-family: 'Dancing Script', cursive;
   color: #43d6b9ff;
   text-align: center;
   line-height: 1.3em;
