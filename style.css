@@ -17,7 +17,7 @@ body,
 html {
   height: 100%;
   font-size: 20px; /* Change the font size*/
-  font-family: 'Dancing Script', cursive; /* Change the font */
+  font-family: 'Dancing Script', cursive; /* Change the font *OVER/
   line-height: 1.5em; /* Change the line height size*/
   margin: 0em;
   color: white; /* Change the font color*/
@@ -108,18 +108,18 @@ li.nav a:hover {
   display: flex; /* Set the flexbox display */
   flex-direction: row; /* Configure the flex items to row */
   flex-wrap: nowrap; /* Don’t wrap the flex items */
-  justify-content: center; /* Justify the flex items to the center */
+  justify-content: right; /* Justify the flex items to the center */
   align-items: center; /* Align the flex items to the center */
 
   /* Design properties */
-  background-color: #0D38D3;
-  padding: 5px;
+  background-color:#b30000;
+  padding: 2px;
 
   /* Positioning properties */
   position: absolute;
-  left: 20%;
-  right: 20%;
-  top: 40%; /* Change this value to move the box up or down */
+  left: 10%;
+  right: 40%;
+  top: 50%; /* Change this value to move the box up or down */
 
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
   /*border-style: dotted;*/
@@ -127,10 +127,10 @@ li.nav a:hover {
 
 /* TODO: Review the CSS properties to the flex item for the heading (the left box) */
 .heading-home {
-  padding: 2%;
-  color: #43d6b9ff;
-  font-size: 50px;
-  letter-spacing: 10px;
+  padding: 1%;
+  color: #ffcc00;
+  font-size: 40px;
+  letter-spacing: 0.5px;
   line-height: 60px;
   text-align: center;
 
