@@ -129,7 +129,9 @@
   height: 10px;
   width: 10px;
 }
-
+.action-info-container{
+  background-image: url("https://cdn.glitch.com/b3cd09a5-b559-4907-93ef-aede3a8f5253%2Fgirl-min.jpg?v=1596143788922")
+}
 
 /* 
 A note on the checkbox: This is actually just a neat trick. Before the 
