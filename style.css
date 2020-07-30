@@ -175,7 +175,8 @@ li.nav a:hover {
 /* TODO: Add the CSS selector for each image to the collective image rule set */
 
 .main-message,
-.image-one {
+.image-one, 
+.image-two{
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -199,6 +200,9 @@ li.nav a:hover {
 }
 
 /* TODO: Add a second background image. Make sure you add this class selector to the collective image rule set above */
+.image-two{
+  background-image: url("https://cdn.glitch.com/b3cd09a5-b559-4907-93ef-aede3a8f5253%2Feducate.jpg?v=1596147342697");
+}
 
 /* TODO: Add more background images by repeating the process above */
 
@@ -207,6 +211,7 @@ li.nav a:hover {
   font-size: 12px;
   text-align: right;
   margin-right: 10px;
+  
 }
 
 /******************************************************/
