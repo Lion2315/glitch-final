@@ -64,7 +64,7 @@
 
 /* Holds all elements related to the action item list; inside the action-list-container */
 #checklist {
-  background-color: white;
+  background-color: #00ccff;
   border-radius: 15px;
   padding-top: 5px;
   padding-bottom: 15px;
@@ -77,14 +77,15 @@
 /* Header in the list container */
 #checklist-header {
   text-align: center;
-  color: #0D38D3;
+  color: orange;
   letter-spacing: 1px;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
 /* Intructions inside the list container */
 #instructions {
-  font: 14px "Roboto", sans-serif;
+  font-family: 'Shadows into light', cursive;
+  font-size:30px;
   text-align: center;
   font-style: italic;
   color: #0D38D3;
