@@ -64,12 +64,12 @@
 
 /* Holds all elements related to the action item list; inside the action-list-container */
 #checklist {
-  background-color: ;
+  background-color: #ffb3d1;
   border-radius: 15px;
   padding-top: 5px;
   padding-bottom: 15px;
   border-style: solid;
-  border-color: #43d6b9ff;
+  border-color: #47d147;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
@@ -77,7 +77,7 @@
 /* Header in the list container */
 #checklist-header {
   text-align: center;
-  color: orange;
+  color:#cc0066;
   letter-spacing: 1px;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
@@ -85,10 +85,10 @@
 /* Intructions inside the list container */
 #instructions {
   font-family: 'Shadows into light', cursive;
-  font-size:30px;
+  font-size: 30px;
   text-align: center;
   font-style: italic;
-  color: #0D38D3;
+  color: #cc0066;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
   
 }
@@ -111,7 +111,8 @@
   list-style-type: none;
   transition: 0.2s;
   width: 85%;
-  color: black;
+  color: #9900cc;
+  font-size: 20px;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
@@ -128,6 +129,8 @@
   height: 10px;
   width: 10px;
 }
+
+
 /* 
 A note on the checkbox: This is actually just a neat trick. Before the 
 item is clicked, the CSS file inserts a blank space through the content: "";
