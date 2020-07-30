@@ -1,6 +1,7 @@
 /************************************************/
 /********* ADD CHECKLIST FUNCTIONALITY **********/
 /************************************************/
+var fullItemList = docun
 
 /* TODO: Add a variable to store the "my-list" element */
 
