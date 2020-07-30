@@ -2,8 +2,16 @@
 /********* ADD CHECKLIST FUNCTIONALITY **********/
 /************************************************/
 var fullItemList = document.getElementById("my-list");
-fullItemList.addEventListener("click",checkOffItem);
 
+if (fullItemList){
+ fullItemList.addEventListener("click", checkOffItem, false); 
+}
+
+function checkOffItem(clicked){
+  if(clicked.target.tagname == "LI"){
+    clicked.target.classlist.toggle("all-done");
+  }
+}
 
 
 /* TODO: Add a variable to store the "my-list" element */
