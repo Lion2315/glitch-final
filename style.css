@@ -38,9 +38,9 @@ h1 {
 /*TODO: Change the font-family property to your linked font*/
 h2 {
   letter-spacing: 3px;
-  font-size: 25px;
+  font-size: 50px;
   font-family: 'Dancing Script', cursive;
-  color: #43d6b9ff;
+  color: #ff9900;
   text-align: center;
   line-height: 1.3em;
 }
@@ -83,7 +83,7 @@ li.nav {
 li.nav a {
   /* Styling for the <a> elements in <li class="nav"> */
   display: block;
-  color: #0D38D3;
+  color: yellow;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -95,8 +95,8 @@ li.nav a {
 
 li.nav a:hover {
   /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
-  background-color: #0D38D3;
-  color: #43d6b9ff;
+  background-color: red;
+  color: black;
 }
 
 /************************************************/
@@ -162,12 +162,12 @@ li.nav a:hover {
 /* TODO (optional): Change the background color and/or text alignment */
 
 .text-section {
-  background-color: white;
-  padding: 20px 45px;
-  border-color:#f73f07;
-  margin: 35px;
+  background-color: black; 
+  padding: 10px 30px;
+  margin: 0px;
+  margin-color: black;
   text-align: center;
-  color: red;
+  color: white;
 }
 
 /*---------IMAGE STYLING + PARALLAX PROPERTY---------*/
