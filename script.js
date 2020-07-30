@@ -1,7 +1,10 @@
 /************************************************/
 /********* ADD CHECKLIST FUNCTIONALITY **********/
 /************************************************/
-var fullItemList = docun
+var fullItemList = document.getElementById("my-list");
+fullItemList.addEventListener("click",checkOffItem);
+
+
 
 /* TODO: Add a variable to store the "my-list" element */
 
