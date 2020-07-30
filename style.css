@@ -16,7 +16,7 @@ The CSS for the take-action.html is in take-action.css
 body,
 html {
   height: 100%;
-  font-size: 20px; /* Change the font size*/
+  font-size: 30px; /* Change the font size*/
   font-family: 'Dancing Script', cursive; /* Change the font *OVER/
   line-height: 1.5em; /* Change the line height size*/
   margin: 0em;
@@ -144,7 +144,7 @@ li.nav a:hover {
   padding: 4%;
   margin: 2%;
   color: ; /* Add the color of your font */
-  font-size: 30px; /* Add your font size*/
+  font-size: 40px; /* Add your font size*/
   letter-spacing: 3px; /* Adds space between letters */
   line-height: 1.4em; /* Adds space between lines */
   text-align: right;
@@ -162,10 +162,12 @@ li.nav a:hover {
 /* TODO (optional): Change the background color and/or text alignment */
 
 .text-section {
-  background-color: #0D38D3;
+  background-color: white;
   padding: 20px 45px;
+  border-color:#f73f07;
   margin: 35px;
   text-align: center;
+  color: red;
 }
 
 /*---------IMAGE STYLING + PARALLAX PROPERTY---------*/
