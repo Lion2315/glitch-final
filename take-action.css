@@ -6,7 +6,7 @@
   width: 100%;
   position: absolute;
   text-transform: uppercase;
-  background-color: #0D38D3;
+  background-color: #b3f0ff;
 }
 
 
@@ -58,7 +58,7 @@
   padding: 35px;
   margin: 5%;
   flex-grow: 1;
-  background-color: #0d9c90;
+  background-color: #ff5050;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
